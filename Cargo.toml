@@ -1,0 +1,12 @@
+[package]
+name = "top_n_tail"
+version = "0.1.0"
+authors = ["Jared Steiner <steiner.jared1996@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "tnt"
+path = "src/main.rs"
+
+[dependencies]
+clap = "3.0.0-beta.2"
