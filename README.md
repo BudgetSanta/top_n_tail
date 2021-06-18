@@ -1,4 +1,5 @@
 # Top 'n' Tail :carrot:
+[![Crates Badge]][Crates] [![Docs Badge]][Docs] [![License Badge]][License]
 
 A CLI Utility to extract text from files or `stdin`
 
@@ -35,3 +36,12 @@ tnt 1 9999997 > /dev/null  0.36s user 0.21s system 17% cpu 3.286 total
 ```
 
 _The same output took about 3 seconds with `tnt`_
+
+[Crates]: https://crates.io/crates/top_n_tail
+[Crates Badge]: https://img.shields.io/crates/v/top_n_tail
+
+[Docs]: https://docs.rs/top_n_tail
+[Docs Badge]: https://docs.rs/top_n_tail/badge.svg
+
+[License]: https://spdx.org/licenses/MIT.html
+[License Badge]: https://img.shields.io/badge/License-MIT-blue.svg
