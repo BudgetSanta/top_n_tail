@@ -1,6 +1,6 @@
 # Top 'n' Tail :carrot:
 
-Extract lines from a file or from `stdin` specifying line indexes
+A CLI Utility to extract text from files or `stdin`
 
 # Usage
 

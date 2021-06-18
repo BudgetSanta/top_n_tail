@@ -3,6 +3,10 @@ name = "top_n_tail"
 version = "0.1.0"
 authors = ["Jared Steiner <steiner.jared1996@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/jayman888/top_n_tail/"
+description = "A CLI Utility to extract text from files or stdin"
+license = "MIT"
+
 
 [[bin]]
 name = "tnt"
