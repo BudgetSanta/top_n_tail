@@ -1,6 +1,6 @@
 [package]
 name = "top_n_tail"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jared Steiner <steiner.jared1996@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/jayman888/top_n_tail/"
@@ -13,4 +13,4 @@ name = "tnt"
 path = "src/main.rs"
 
 [dependencies]
-clap = "3.0.0-beta.2"
+clap = { version = "3.2.8", features = ["derive"] }

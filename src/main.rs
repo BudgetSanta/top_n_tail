@@ -1,4 +1,4 @@
-use clap::Clap;
+use clap::Parser;
 use std::{
     cmp, fs,
     io::{self, Read},
@@ -24,7 +24,7 @@ fn main() {
             match io::stdin().read_to_string(&mut buffer) {
                 Ok(_) => buffer,
                 Err(e) => {
-                    eprintln!("Error readin from stdin: {}", e);
+                    eprintln!("Error reading from stdin: {}", e);
                     exit(1);
                 }
             }
@@ -38,7 +38,8 @@ fn main() {
     println!("{}", output)
 }
 
-#[derive(Clap, Debug)]
+#[derive(Parser, Debug)]
+#[clap()]
 struct Opts {
     /// Start line index
     start: usize,
